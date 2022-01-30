@@ -1,10 +1,12 @@
 # Overview
 
-Allows to insert data in the local Dynamodb based on the PutRequest scripts
+Allows to insert data in the local Dynamodb based on the PutRequest scripts, presuming that the tables have been created correctly
 
 ## Benefits 
 
 * Insert data without stress
+
+* Insert more than 25 items
 
 ## Getting Started
 
@@ -21,7 +23,6 @@ These instructions will get you a copy of the project up and running on your loc
 * 3.00 GB of available disk space
 * Python 3.7 or higher
 
-Use with Docker http://www.docker.io
 
 ### Installation
 
