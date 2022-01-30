@@ -36,7 +36,7 @@ for f in arr:
     f = open('./data/' + f, "r", encoding="utf-8")
     #
     data = json.load(f)
-    # print(data)
+    # 
     for key_, values_ in data.items():
         # 
         table_ = ddb.Table(key_)
