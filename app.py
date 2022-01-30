@@ -58,7 +58,3 @@ for f in arr:
                     putRequest_json[k_] = json_[k_][kk]
             print(putRequest_json)
             table_.put_item(Item=putRequest_json)
-            # break
-        # break
-        
-    # break
