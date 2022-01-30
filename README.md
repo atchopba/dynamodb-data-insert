@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 - Rename "init.env" to ".env"
 - Edit ".env" file and put the right values.
-- Put json in the data folder
+- Put json in the [data](data) folder (creation of table is in [example-create](example-create))
 
 
 ### Prerequisites
