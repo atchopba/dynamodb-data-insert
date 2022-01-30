@@ -1,6 +1,6 @@
 # Overview
 
-Allows to insert data in the local Dynamodb based on the PutRequest scripts, presuming that the tables have been created correctly
+Allows to insert data in your [local Dynamodb](https://hub.docker.com/r/amazon/dynamodb-local) based on the PutRequest scripts, presuming that the tables have been created correctly
 
 ## Benefits 
 
@@ -8,12 +8,14 @@ Allows to insert data in the local Dynamodb based on the PutRequest scripts, pre
 
 * Insert more than 25 items
 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 - Rename "init.env" to ".env"
 - Edit ".env" file and put the right values.
+- Put json in the data folder
 
 
 ### Prerequisites
@@ -22,11 +24,18 @@ These instructions will get you a copy of the project up and running on your loc
 * 2.00 GB of RAM
 * 3.00 GB of available disk space
 * Python 3.7 or higher
+* [AWS Cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 
-### Installation
+### Launch the app
+```
+python app.py
+```
 
-
+Verify the data insert 
+```
+aws dynamodb scan --table-name table_name --endpoint-url http://host:port
+``` 
 
 ## License & copyright
 
