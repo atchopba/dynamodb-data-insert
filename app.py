@@ -31,7 +31,7 @@ arr = os.listdir('./data')
 
 for f in arr:
     # print filename
-    print("======> ". f)
+    print("======> ", f)
     #
     f = open('./data/' + f, "r", encoding="utf-8")
     #
