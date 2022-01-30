@@ -1,0 +1,915 @@
+{
+    "my_table": [
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "1" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "2" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "s" }, 
+					"composition": { "S": "nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "3" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "4" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "5" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+adj+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "6" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+adj+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "7" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+adv+adj+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "8" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+adv+adj+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "9" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "pron" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "10" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "v" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "11" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "12" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v+adv" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "13" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v+adv+vpp" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "14" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "adj" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "15" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "16" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "det+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "17" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "18" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "19" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+det+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "20" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+det+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "21" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+det+adj+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "22" },  
+					"la_id": { "N": "1" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+det+adj+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "23" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "24" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "25" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "26" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "np+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "27" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "adj+nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "28" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "adj+np+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "29" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "adv+adj+nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "30" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "adv+adj+np+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "31" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "pron" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "32" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "v" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "33" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "34" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v+adv" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "35" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v+adv+vpp" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "36" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "adj" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "37" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "38" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "39" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "40" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "41" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "42" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+np+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "43" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "44" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+adj+nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "45" },  
+					"la_id": { "N": "3" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+adj+np+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "46" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "47" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "48" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "49" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "50" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+adj+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "51" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+adj+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "52" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+adv+adj+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "53" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "det+adv+adj+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "54" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "pron" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "55" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "v" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "56" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "57" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v+adv" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "58" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v+adv+vpp" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "59" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "adj" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "60" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "61" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "62" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "det+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "63" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "64" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "65" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+det+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "66" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+det+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "67" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+det+adj+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "68" },  
+					"la_id": { "N": "2" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+det+adj+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "69" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "70" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "71" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "72" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "np+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "73" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "adj+nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "74" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "adj+np+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "75" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "adv+adj+nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "76" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "adv+adj+np+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "77" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "s" },  
+					"composition": { "S": "pron" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "78" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "v" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "79" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "80" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v+adv" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "81" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "v" },  
+					"composition": { "S": "adv+v+adv+vpp" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "82" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "adj" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "83" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "84" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "85" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "86" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+nc" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "87" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+np" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "88" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+np+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "89" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "90" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+adj+nc+det" }
+				}
+			}
+		}, 
+		{ 
+			"PutRequest": { 
+				"Item": {
+					"_id": { "N": "91" },  
+					"la_id": { "N": "5" },  
+					"lib_id": { "S": "c" },  
+					"composition": { "S": "prep+adj+np+det" }
+				}
+			}
+		}
+	]
+}
+		

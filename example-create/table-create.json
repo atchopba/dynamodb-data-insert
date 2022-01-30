@@ -1,0 +1,15 @@
+{
+  "TableName": "my_table",
+  "KeySchema": [
+    { "AttributeName": "_id", "KeyType": "HASH" },
+    { "AttributeName": "la_id", "KeyType": "RANGE" }
+  ],
+  "AttributeDefinitions": [
+    { "AttributeName": "_id", "AttributeType": "N" },
+    { "AttributeName": "la_id", "AttributeType": "N" }
+  ],
+  "ProvisionedThroughput": {
+      "ReadCapacityUnits": 5,
+      "WriteCapacityUnits": 5
+  }
+}
